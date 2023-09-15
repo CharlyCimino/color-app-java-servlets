@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorApp</title>
+    <style>
+        body {
+            font-size:1.8rem; 
+            font-family:sans-serif;
+        }
+        form > input {
+            font-size:1.5rem; 
+        }
+    </style>
+</head>
+
+<body>
+    <form action="respuesta" method="get">
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <br>
+        <label>Color de fondo:</label>
+        <input type="color" name="colorFondo" value="#FFFFFF">
+        <br>
+        <label>Color de letra:</label>
+        <input type="color" name="colorLetra" value="#0000FF">
+        <br>
+        <input type="submit" value="Hacer magia">
+        <input type="reset" value="Arrepentirse">
+    </form>
+</body>
+
+</html>
